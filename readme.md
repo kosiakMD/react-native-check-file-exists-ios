@@ -54,11 +54,11 @@ If you get stuck, take a look at Brent Vatne's blog. His blog is my go to refere
     
 # Get Params: 
 
-  1) 'string' - path to file, required;
+1) 'string' - path to file, required;
   
-  2) 'function' - Error callback;
+2) 'function' - Error callback;
   
-  3) 'function' - Success callback ;
+3) 'function' - Success callback ;
     
 # Success Callback 
 
