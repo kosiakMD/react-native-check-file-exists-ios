@@ -50,9 +50,9 @@ If you get stuck, take a look at Brent Vatne's blog. His blog is my go to refere
 
 Get params: 'string' - path to file;
 
-Return type: 'string';
+Return type: Object;
     
-Return values: if file exists 'true' else 'false';
+Object properties: ‘successMsg’ = if file exists 'true' else 'false', 'errMsg';
 
 # Error Callback
 
