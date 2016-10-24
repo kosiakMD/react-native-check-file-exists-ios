@@ -4,7 +4,9 @@ This is a wrapper for react-native that checks if a file exists in the app docum
 
 # Add it to your project
 
-npm install react-native-check-file-exists-ios --save
+Requires: NodeJS and npm must be installed - <a href="https://docs.npmjs.com/getting-started/installing-node">instuction</a>.
+
+    npm install react-native-check-file-exists-ios --save
 
 In XCode, in the project navigator, right click Libraries ➜ Add Files to [your project's name]
 
