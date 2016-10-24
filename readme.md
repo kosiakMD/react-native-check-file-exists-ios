@@ -52,7 +52,7 @@ Get params: 'string' - path to file;
 
 Return type: 'string';
     
-Return values: if file exists 'true' else 'false;
+Return values: if file exists 'true' else 'false';
 
 # Error Callback
 
