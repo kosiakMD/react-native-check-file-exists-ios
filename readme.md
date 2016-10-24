@@ -1,6 +1,8 @@
 # react-native-check-file-exists-ios
 
-This is a wrapper for react-native that checks if a file exists in the app documents directory. Returns "yes" if exists, "no" if does not exists. This is for ios.
+This is a wrapper for react-native that checks if a file exists in the app documents directory. Returns "yes" if exists, "no" if does not exists. 
+
+This is for iOS only.
 
 # Add it to your project
 
