@@ -48,11 +48,11 @@ If you get stuck, take a look at Brent Vatne's blog. His blog is my go to refere
     
 # Success Callback 
 
+Get params: 'string' - path to file;
+
 Return type: 'string';
     
-Return values:
-    
-    If file exists 'true' else 'false;
+Return values: if file exists 'true' else 'false;
 
 # Error Callback
 
