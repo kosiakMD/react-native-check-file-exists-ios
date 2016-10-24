@@ -8,7 +8,8 @@ This is for iOS only.
 
 Requires: NodeJS and npm must be installed - <a href="https://docs.npmjs.com/getting-started/installing-node">instuction</a>.
 
-    npm install react-native-check-file-exists-ios --save
+    # install node module
+    $ npm install react-native-check-file-exists-ios --save
 
 In XCode, in the project navigator, right click Libraries ➜ Add Files to [your project's name]
 
