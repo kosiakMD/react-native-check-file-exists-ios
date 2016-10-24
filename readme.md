@@ -51,9 +51,14 @@ If you get stuck, take a look at Brent Vatne's blog. His blog is my go to refere
         }
     );
     
-# Success Callback 
+    
+# Get Params: 
 
-Get params: 'string' - path to file;
+  1) 'string' - path to file, required;
+  2) 'function' - Error callback;
+  3) 'function' - Success callback ;
+    
+# Success Callback 
 
 Return type: Object;
     
