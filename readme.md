@@ -22,31 +22,35 @@ If you get stuck, take a look at Brent Vatne's blog. His blog is my go to refere
 
 # Api Setup
 
-var React = require('react-native');
+    import { NativeModules } from 'react-native';
 
-var { NativeModules } = React;
+    import { RNCheckFileExists } from 'NativeModules';
 
-var { RNCheckFileExists } = NativeModules;
+    RNCheckFileExists.checkFile(
 
-RNCheckFileExists.checkFile(
+        'MyFile.txt',                   // File name
 
-    'MyFile.txt',                   // File name
+        function errorCallback(results) {
 
-    function errorCallback(results) {
+            console.log('Error: ' + results['errMsg']);
 
-        console.log('Error: ' + results['errMsg']);
+        },
 
-    },
+        function successCallback(results) {
 
-    function successCallback(results) {
+            console.log('Success: ' + results['successMsg']);
 
-        console.log('Success: ' + results['successMsg']);
+            // if file exists - results['successMsg'] == "yes"
+            // if file does not exist - results['successMsg'] == "no"
 
-        // if file exists - results['successMsg'] == "yes"
-        // if file does not exist - results['successMsg'] == "no"
+        }
+    );
+    
+# Success Callback 
 
-    }
-);
+    Return type = 'string';
+    
+    If file exists 'true' else 'false;
 
 # Error Callback
 
